@@ -142,13 +142,17 @@ body {
     /* align-items: center; */
 }
 .card {
-	box-shadow: 0 0 20px 7px #0000001f;
 	display: grid;
 	grid-template-rows: repeat(5, 1fr);
 	padding: 10px 20px;
 	border-radius: 10px;
     box-sizing: border-box;
     max-height:300px;
+    transition: all 0.2s ease-in-out;
+}
+.card:hover{
+	box-shadow: 0 0 30px 0px #0000001f; 
+    translate: 0px -5px;
 }
 .card-heading {
 	font-size: 1.6em;
@@ -171,6 +175,7 @@ body {
 	font-weight: 600;
 	transition: all 0.2s ease-out;
 	border-radius: 3px;
+    background: none;
 }
 .card-button:hover {
 	cursor: pointer;
@@ -179,6 +184,13 @@ body {
 }
 .card1{
     width:100%;
+    background: linear-gradient(45deg,#9ecbff,#bed7f3);
+}
+.card2{
+    background: linear-gradient(45deg,#66f8db,#a0fcea);
+}
+.card3{
+    background: linear-gradient(45deg,#f9667e,#f9a5b3);
 }
 .card-vertical {
 	width: 49%;
