@@ -152,7 +152,7 @@ body {
 }
 .card:hover{
 	box-shadow: 0 0 30px 0px #0000001f; 
-    translate: 0px -5px;
+    translate: 0px -1px;
 }
 .card-heading {
 	font-size: 1.6em;
